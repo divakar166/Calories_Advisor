@@ -1,7 +1,8 @@
 import streamlit as st
+import os
 os.system("pip install google-generativeai")
 import google.generativeai as genai
-import os
+
 from dotenv import load_dotenv
 load_dotenv() #loading all the env var
 from PIL import Image
