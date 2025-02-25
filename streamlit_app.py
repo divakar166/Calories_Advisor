@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-os.system("pip install google-generativeai")
+os.system("pip install google-generativeai pyyaml")
 import google.generativeai as genai
 
 from dotenv import load_dotenv
